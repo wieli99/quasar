@@ -120,6 +120,8 @@ You can even combine it with values from the `quasar dev/build` env variables:
 ```bash
 # we set an env variable in terminal
 $ MY_API=api.com quasar build
+# or in Windows
+$ $env:MY_API = "api.com"
 ```
 
 ```js
